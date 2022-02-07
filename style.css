@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://www.guiadasemana.com.br/contentFiles/system/pictures/2015/7/139255/original/auto-retrato.jpg);
+}
+header{
+    display: flex;
+    justify-content: center;
+    font-weight:900;
+    color:white;
+    font-family: verdana;
+    border-bottom: 1px #fff solid;
+    margin: 20px;
+}
+
+main .menuLateral{
+    color: whitesmoke;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
